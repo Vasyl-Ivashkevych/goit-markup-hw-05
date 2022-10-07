@@ -1,0 +1,269 @@
+:root {
+  --accent: #2196f3;
+  --black-title: #212121;
+  --basic-text: #757575;
+  --secondary-color: rgba(255, 255, 255, 0.6);
+  --additional-color: #ffffff;
+}
+
+body {
+  background-color: var(--additional-color);
+  color: var(--basic-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/*header*/
+
+.logo {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+/*nav*/
+.site-nav .link-nav {
+  color: var(--black-title);
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus {
+  color: var(--accent);
+}
+
+.site-nav .link.current {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.site-nav {
+  list-style: none;
+}
+
+/*contact*/
+
+.connect {
+  color: var(--basic-text);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.connect:hover,
+.connect:focus {
+  color: var(--accent);
+}
+
+.contacts {
+  list-style: none;
+}
+
+/*hero*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  background-color: var(--accent);
+  color: var(--additional-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+
+/*section-features*/
+
+.section-team-title {
+  color: var(--black-title);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.featurs-title {
+  color: var(--black-title);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.featurs-text {
+  color: var(--basic-text);
+  line-height: 1.71;
+}
+
+.features-list .featurs-title {
+  color: var(--black-title);
+}
+
+.features-list {
+  list-style: none;
+}
+
+/*section-skill*/
+
+.skill-title {
+  color: var(--black-title);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.section-icon {
+  list-style: none;
+}
+
+/*section-team*/
+
+.title-team {
+  color: var(--black-title);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.profession {
+  color: var(--basic-text);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.list-team {
+  list-style: none;
+}
+
+/*section-portfolio */
+
+.link-filtr {
+  text-decoration: none;
+}
+
+.filtr-title {
+  color: var(--black-title);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.filtr-text {
+  color: var(--basic-text);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/*button-portfolio*/
+
+.btns {
+  background-color: #f5f4fa;
+  color: var(--black-title);
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btns:hover,
+.btns:focus {
+  background-color: var(--accent);
+  color: var(--additional-color);
+}
+
+.filtr-btns {
+  list-style: none;
+}
+
+.filtr-works {
+  list-style: none;
+}
+
+/*footer*/
+
+.footer {
+  background: #2f303a;
+}
+
+.footer-logo {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-nav {
+  color: var(--additional-color);
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.address-list {
+  list-style: none;
+}
+
+.address-nav:hover,
+.address-nav:focus {
+  color: var(--accent);
+}
+
+.address-contact {
+  color: var(--secondary-color);
+  line-height: 1.71;
+  text-decoration: none;
+}
+
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--accent);
+}
