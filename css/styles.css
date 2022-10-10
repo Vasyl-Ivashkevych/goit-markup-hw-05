@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --accent: #2196f3;
   --black-title: #212121;
@@ -12,6 +22,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
 }
 
 /*header*/
@@ -30,6 +46,7 @@ body {
 }
 
 /*nav*/
+
 .site-nav .link-nav {
   color: var(--black-title);
   font-weight: 500;
@@ -73,6 +90,46 @@ body {
 
 /*hero*/
 
+.section-hero {
+  background-color: #2f303a;
+  text-align: center;
+  margin-bottom: 94px;
+}
+
+.hero-title {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 35px;
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  padding: 10px 32px;
+  min-width: 216px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--accent);
+  color: var(--additional-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+}
+
+/*section-features*/
+
+.section-features {
+  margin-bottom: 90px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -80,41 +137,13 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
-.hero {
-  background-color: #2f303a;
-}
-
-.hero-title {
-  background-color: #2f303a;
-  color: #ffffff;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.hero-btn {
-  background-color: var(--accent);
-  color: var(--additional-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  cursor: pointer;
-  letter-spacing: 0.06em;
-}
-
-/*section-features*/
 
 .section-team-title {
   color: var(--black-title);
@@ -125,6 +154,7 @@ body {
 }
 
 .featurs-title {
+  margin-bottom: 10px;
   color: var(--black-title);
   font-weight: 700;
   font-size: 14px;
@@ -138,7 +168,7 @@ body {
   line-height: 1.71;
 }
 
-.features-list .featurs-title {
+.featurs-title {
   color: var(--black-title);
 }
 
@@ -148,7 +178,12 @@ body {
 
 /*section-skill*/
 
+.section-skill {
+  margin-bottom: 94px;
+}
+
 .skill-title {
+  margin-bottom: 50px;
   color: var(--black-title);
   font-weight: 700;
   font-size: 36px;
@@ -203,6 +238,9 @@ body {
 /*button-portfolio*/
 
 .btns {
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: #f5f4fa;
   color: var(--black-title);
   font-family: inherit;
