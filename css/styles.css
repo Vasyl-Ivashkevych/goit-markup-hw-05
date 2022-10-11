@@ -98,7 +98,6 @@ body {
 .section-hero {
   background-color: #2f303a;
   text-align: center;
-  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -133,7 +132,9 @@ body {
 /*section-features*/
 
 .section-features {
-  margin-bottom: 90px;
+  background-color: #2196f3;
+  padding-top: 94px;
+  padding-bottom: 90px;
 }
 
 .visually-hidden {
@@ -161,6 +162,7 @@ body {
 }
 
 .featurs-title {
+  margin-top: 0;
   margin-bottom: 10px;
   color: var(--black-title);
   font-weight: 700;
@@ -171,6 +173,7 @@ body {
 }
 
 .featurs-text {
+  margin-top: 10px;
   color: var(--basic-text);
   line-height: 1.71;
 }
@@ -181,18 +184,19 @@ body {
 
 .features-list {
   margin-top: 0;
+  margin-bottom: 0;
   list-style: none;
 }
 
 /*section-skill*/
 
 .section-skill {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .skill-title {
   margin-top: 0;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   color: var(--black-title);
   font-weight: 700;
   font-size: 36px;
