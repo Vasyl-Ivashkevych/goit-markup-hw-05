@@ -28,6 +28,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
+  padding: 0 15px;
 }
 
 /*header*/
@@ -101,8 +102,9 @@ body {
 }
 
 .hero-title {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 35px;
   background-color: #2f303a;
   color: #ffffff;
@@ -220,12 +222,14 @@ body {
 }
 
 .list-team {
+  margin-bottom: 0;
   list-style: none;
 }
 
 /*section-portfolio */
 
 .link-filtr {
+  display: inline-block;
   text-decoration: none;
 }
 
@@ -266,6 +270,7 @@ body {
 }
 
 .filtr-works {
+  margin-top: 0;
   list-style: none;
 }
 
@@ -295,6 +300,8 @@ body {
 }
 
 .address-list {
+  margin-bottom: 0;
+  padding: 0;
   list-style: none;
 }
 
