@@ -49,10 +49,6 @@ body {
 
 /*nav*/
 
-.header-nav {
-  display: inline-block;
-}
-
 .site-nav .link-nav {
   color: var(--black-title);
   font-weight: 500;
@@ -72,7 +68,12 @@ body {
 }
 
 .site-nav {
+  display: flex;
   list-style: none;
+}
+
+.site-nav li:not(:last-child) {
+  margin-right: 50px;
 }
 
 /*contact*/
@@ -91,8 +92,12 @@ body {
 }
 
 .contacts {
-  display: inline-block;
+  display: flex;
   list-style: none;
+}
+
+.contacts li:not(:last-child) {
+  margin-right: 50px;
 }
 
 /*hero*/
@@ -159,7 +164,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -293,9 +297,14 @@ body {
 }
 
 .filtr-btns {
+  display: flex;
   margin-top: 0;
   margin-bottom: 34px;
   list-style: none;
+}
+
+.filtr-btns li:not(last-child) {
+  margin-right: 8px;
 }
 
 .filtr-works {
@@ -312,7 +321,7 @@ body {
 }
 
 .footer-logo {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   color: #ffffff;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -327,11 +336,9 @@ body {
 }
 
 .address-nav {
-  padding-bottom: 9px;
   color: var(--additional-color);
   line-height: 1.71;
   text-decoration: none;
-  display: inline-block;
 }
 
 .address-list {
@@ -341,13 +348,16 @@ body {
   list-style: none;
 }
 
+.address-list li:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .address-nav:hover,
 .address-nav:focus {
   color: var(--accent);
 }
 
 .address-contact {
-  padding-bottom: 9px;
   color: var(--secondary-color);
   line-height: 1.71;
   text-decoration: none;
