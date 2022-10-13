@@ -35,6 +35,7 @@ body {
 /*header*/
 
 .logo {
+  display: flex;
   color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -50,6 +51,9 @@ body {
 /*nav*/
 
 .site-nav .link-nav {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--black-title);
   font-weight: 500;
   line-height: 16px;
@@ -63,6 +67,9 @@ body {
 }
 
 .site-nav .link.current {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--accent);
   text-decoration: none;
 }
@@ -74,6 +81,11 @@ body {
 
 .site-nav li:not(:last-child) {
   margin-right: 50px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 
 /*contact*/
@@ -92,6 +104,7 @@ body {
 }
 
 .contacts {
+  margin-left: auto;
   display: flex;
   list-style: none;
 }
