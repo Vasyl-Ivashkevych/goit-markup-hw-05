@@ -261,7 +261,8 @@ body {
 
 .section-team-title {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
   color: var(--black-title);
   font-weight: 700;
   font-size: 36px;
@@ -270,8 +271,10 @@ body {
 }
 
 .title-team {
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
   color: var(--black-title);
   font-weight: 500;
   font-size: 16px;
@@ -279,16 +282,19 @@ body {
   text-align: center;
 }
 
+.foto {
+  display: block;
+  border-radius: 0px;
+}
+
 .profession {
-  margin-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 30px;
   color: var(--basic-text);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-}
-
-.foto {
-  border-radius: 0px;
 }
 
 .list-team {
@@ -300,7 +306,7 @@ body {
   list-style: none;
 }
 
-.list-team li {
+.team-text {
   background: var(--additional-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -324,11 +330,9 @@ body {
 }
 
 .item {
-  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  background: var(--additional-color);
-  border: 1px solid #eeeeee;
+  background: var(--additional-color); 
 }
 
 .item:nth-child(3n) {
@@ -339,15 +343,26 @@ body {
   margin-bottom: 0;
 }
 
+.image {
+  display: block;
+}
+
 .link-filtr {
   display: inline-block;
   text-decoration: none;
 }
+ /* border: 1px solid #eeeeee;*/
+
+ .filtr-item {
+  border: 1px solid #EEEEEE;
+ }
 
 .filtr-title {
-  margin-left: 24px;
-  margin-top: 20px;
-  margin-bottom: 4px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
   color: var(--black-title);
   font-weight: 700;
   font-size: 18px;
@@ -356,9 +371,10 @@ body {
 }
 
 .filtr-text {
-  margin-left: 24px;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  padding-left: 24px;
+  padding-bottom: 20px;
   color: var(--basic-text);
   font-size: 16px;
   line-height: 1.88;
@@ -391,7 +407,8 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
   padding-left: 0;
   list-style: none;
 }
