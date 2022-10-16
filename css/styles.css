@@ -34,7 +34,7 @@ body {
 /*header*/
 
 .header {
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
 }
 
 .line-shadow {
@@ -121,6 +121,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
+  padding-left: 0;
   display: flex;
   list-style: none;
 }
@@ -228,8 +229,7 @@ body {
 
 .skill-title {
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: var(--black-title);
   font-weight: 700;
   font-size: 36px;
@@ -240,7 +240,6 @@ body {
 
 .section-icon {
   display: flex;
-  flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -261,8 +260,7 @@ body {
 
 .section-team-title {
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: var(--black-title);
   font-weight: 700;
   font-size: 36px;
@@ -332,7 +330,7 @@ body {
 .item {
   margin-right: 30px;
   margin-bottom: 30px;
-  background: var(--additional-color); 
+  background: var(--additional-color);
 }
 
 .item:nth-child(3n) {
@@ -351,11 +349,11 @@ body {
   display: inline-block;
   text-decoration: none;
 }
- /* border: 1px solid #eeeeee;*/
+/* border: 1px solid #eeeeee;*/
 
- .filtr-item {
-  border: 1px solid #EEEEEE;
- }
+.filtr-item {
+  border: 1px solid #eeeeee;
+}
 
 .filtr-title {
   margin-top: 0;
