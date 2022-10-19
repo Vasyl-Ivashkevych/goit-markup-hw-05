@@ -175,6 +175,12 @@ body {
   border: none;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--additional-color);
+  color: var(--black-title);
+}
+
 /*section-features*/
 
 .section-features {
