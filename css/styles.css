@@ -14,6 +14,14 @@ img {
   height: auto;
 }
 
+.lists {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
 :root {
   --accent: #2196f3;
   --black-title: #212121;
@@ -188,14 +196,8 @@ body {
   padding-bottom: 94px;
 }
 
-.list:not(:last-child) {
+.features-list li:not(:last-child) {
   margin-right: 30px;
-}
-
-.list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
 }
 
 .visually-hidden {
@@ -229,14 +231,6 @@ body {
   line-height: 1.71;
 }
 
-.features-list {
-  display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
-}
-
 /*section-skill*/
 
 .section-skill {
@@ -252,14 +246,6 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.06em;
-}
-
-.section-icon {
-  display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
 }
 
 .section-icon li:not(:last-child) {
@@ -284,21 +270,13 @@ body {
   text-align: center;
 }
 
-.list-team {
-  display: flex;
-  padding-left: 0;
-  margin-bottom: 0;
-  margin-top: 0;
-  list-style: none;
-}
-
-.list {
+.list-team li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.list:not(:last-child) {
+.list-team li:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -336,14 +314,8 @@ body {
 }
 
 .filtr-works {
-  display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-left: 0;
-  margin-top: 0;
-  margin-left: 0;
-  margin-bottom: 0;
-  list-style: none;
 }
 
 .item {
@@ -365,13 +337,15 @@ body {
 }
 
 .filtr-item {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
   border: 1px solid #eeeeee;
 }
 
 .filtr-title {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 4px;
-  margin-left: 24px;
   color: var(--black-title);
   font-weight: 700;
   font-size: 18px;
@@ -381,8 +355,7 @@ body {
 
 .filtr-text {
   margin-top: 0;
-  margin-bottom: 20px;
-  margin-left: 24px;
+  margin-bottom: 0;
   color: var(--basic-text);
   font-size: 16px;
   line-height: 1.88;
@@ -417,8 +390,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   padding-left: 0;
   list-style: none;
 }
@@ -459,7 +431,7 @@ body {
 .address-list {
   margin-top: 0;
   margin-bottom: 0;
-  padding: 0;
+  padding-left: 0;
   list-style: none;
 }
 
