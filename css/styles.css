@@ -3,8 +3,8 @@ html {
 }
 
 *,
-*::after,
-*::before {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -153,7 +153,7 @@ body {
 }
 
 .hero-title {
-  width: 696px;
+  max-width: 696px;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -168,12 +168,12 @@ body {
 }
 
 .hero-btn {
-  padding: 0;
+  padding: 10px 32px;
   min-width: 216px;
   min-height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  background-color: var(--accent);
-  color: var(--additional-color);
+  background-color: var(--additional-color);
+  color: var(--black-title);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -186,8 +186,8 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--additional-color);
-  color: var(--black-title);
+  background-color: #188ce8;
+  color: var(--additional-color);
 }
 
 /*section-features*/
@@ -197,8 +197,12 @@ body {
   padding-bottom: 94px;
 }
 
-.features-list li:not(:last-child) {
-  margin-right: 30px;
+.features-list {
+  gap: 30px;
+}
+
+.features-list li {
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .visually-hidden {
