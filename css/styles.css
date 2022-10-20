@@ -197,6 +197,17 @@ body {
   padding-bottom: 94px;
 }
 
+/* .list-decoration::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: #F5F4FA;
+  border-radius: 4px;
+} */
+
 .features-list {
   gap: 30px;
 }
