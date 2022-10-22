@@ -210,10 +210,19 @@ body {
   padding-bottom: 94px;
 }
 
-.list-decoration::before {
+.features-list {
+  gap: 30px;
+}
+
+.features-list .list-decoration {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+/* .list-decoration::before {
   display: block;
   content: "";
   height: 120px;
+  margin-bottom: 30px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -221,13 +230,9 @@ body {
   border-radius: 4px;
 }
 
-.features-list {
-  gap: 30px;
-}
-
-.features-list li {
-  flex-basis: calc((100% - 90px) / 4);
-}
+.list-decoration:nth-child(1)::before {
+  background-image: url(../image/antenna.svg);
+} */
 
 .visually-hidden {
   position: absolute;
