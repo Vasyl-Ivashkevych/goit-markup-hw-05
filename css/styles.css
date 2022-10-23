@@ -340,6 +340,47 @@ body {
   text-align: center;
 }
 
+/* section-clients */
+
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.86;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-title);
+}
+
+.list-clients .list-company:not(:last-child) {
+  margin-right: 30px;
+}
+
+.link-clients {
+  display: inline-block;
+}
+
+.clients-logo {
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.clients-logo:hover,
+.clients-logo:focus {
+  fill: var(--accent);
+  border: 1px solid var(--accent);
+}
+
 /* section-filtr */
 
 .section-filtr {
