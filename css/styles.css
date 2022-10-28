@@ -341,7 +341,7 @@ body {
 }
 
 .link-social {
-  display: inline-block;
+  display: flex;
   width: 44px;
   height: 44px;
   padding: 12px;
@@ -378,7 +378,7 @@ body {
 }
 
 .link-clients {
-  display: inline-block;
+  display: flex;
   width: 170px;
   height: 92px;
   padding: 16px 32px;
