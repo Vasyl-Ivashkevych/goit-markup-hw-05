@@ -113,11 +113,19 @@ body {
 /*contact*/
 
 .connect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--basic-text);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.connect-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .connect:hover,
@@ -126,12 +134,7 @@ body {
 }
 
 .contacts {
-  margin-top: 0;
-  margin-bottom: 0;
   margin-left: auto;
-  padding-left: 0;
-  display: flex;
-  list-style: none;
 }
 
 .contacts li:not(:last-child) {
@@ -346,7 +349,7 @@ body {
   height: 44px;
   padding: 12px;
   border-radius: 50%;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .link-social:hover,
@@ -382,8 +385,8 @@ body {
   width: 170px;
   height: 92px;
   padding: 16px 32px;
-  fill: #AFB1B8;
-  border: 1px solid #AFB1B8;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
 }
 
@@ -424,7 +427,8 @@ body {
 }
 
 .link-filtr:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .filtr-item {
@@ -497,6 +501,11 @@ body {
   background: #2f303a;
 }
 
+.position {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   margin-bottom: 20px;
   color: var(--additional-color);
@@ -544,4 +553,38 @@ body {
 .address-contact:hover,
 .address-contact:focus {
   color: var(--accent);
+}
+
+.link-container {
+  margin-left: 70px;
+}
+
+.join {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.86;
+  text-transform: uppercase;
+  color: var(--additional-color);
+}
+
+.footer-link-list .footer-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  fill: var(--additional-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  fill: var(--additional-color);
+  background-color: var(--accent);
 }
