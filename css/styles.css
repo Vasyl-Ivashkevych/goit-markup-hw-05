@@ -98,12 +98,7 @@ body {
 }
 
 .site-nav {
-  padding-left: 0;
   margin-left: 93px;
-  margin-top: 0;
-  margin-bottom: 0;
-  display: flex;
-  list-style: none;
 }
 
 .site-nav li:not(:last-child) {
@@ -184,7 +179,6 @@ body {
   padding: 10px 32px;
   min-width: 216px;
   min-height: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--additional-color);
   color: var(--black-title);
   font-family: inherit;
@@ -201,6 +195,7 @@ body {
 .hero-btn:focus {
   background-color: #188ce8;
   color: var(--additional-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*section-features*/
@@ -250,14 +245,13 @@ body {
 }
 
 .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #f5f4fa;
   border-radius: 4px;
-}
-
-.features-logo {
   width: 270px;
   height: 120px;
-  padding: 25px 100px;
 }
 
 /*section-skill*/
@@ -347,7 +341,7 @@ body {
 }
 
 .link-social {
-  display: inline-block;
+  display: block;
   width: 44px;
   height: 44px;
   padding: 12px;
@@ -393,7 +387,7 @@ body {
 }
 
 .link-clients {
-  display: inline-block;
+  display: block;
 }
 
 .clients-logo {
@@ -437,9 +431,11 @@ body {
 }
 
 .link-filtr {
-  display: inline-block;
+  display: block;
   text-decoration: none;
 }
+
+/* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
 
 .filtr-item {
   padding-top: 20px;
