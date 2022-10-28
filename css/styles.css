@@ -341,25 +341,16 @@ body {
 }
 
 .link-social {
-  display: block;
+  display: inline-block;
   width: 44px;
   height: 44px;
   padding: 12px;
   border-radius: 50%;
+  fill: #AFB1B8;
 }
 
 .link-social:hover,
 .link-social:focus {
-  fill: var(--additional-color);
-  background-color: var(--accent);
-}
-
-.social-logo {
- fill: #AFB1B8;
-}
-
-.social-logo:hover,
-.social-logo:focus {
   fill: var(--additional-color);
   background-color: var(--accent);
 }
@@ -387,10 +378,7 @@ body {
 }
 
 .link-clients {
-  display: block;
-}
-
-.clients-logo {
+  display: inline-block;
   width: 170px;
   height: 92px;
   padding: 16px 32px;
@@ -399,8 +387,8 @@ body {
   border-radius: 4px;
 }
 
-.clients-logo:hover,
-.clients-logo:focus {
+.link-clients:hover,
+.link-clients:focus {
   fill: var(--accent);
   border: 1px solid var(--accent);
 }
@@ -435,12 +423,13 @@ body {
   text-decoration: none;
 }
 
-/* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); */
+.link-filtr:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .filtr-item {
-  padding-top: 20px;
+  padding: 20px;
   padding-left: 24px;
-  padding-bottom: 20px;
   border: 1px solid #eeeeee;
 }
 
