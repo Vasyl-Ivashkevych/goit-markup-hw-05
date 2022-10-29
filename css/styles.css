@@ -182,8 +182,8 @@ body {
   padding: 10px 32px;
   min-width: 216px;
   min-height: 50px;
-  background-color: var(--additional-color);
-  color: var(--black-title);
+  background-color: var(--accent);
+  color: var(--additional-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -384,7 +384,8 @@ body {
   display: flex;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -424,9 +425,11 @@ body {
 .link-filtr {
   display: block;
   text-decoration: none;
+  border: 1px solid #eeeeee;
 }
 
-.link-filtr:hover {
+.link-filtr:hover,
+.link-filtr:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -434,7 +437,6 @@ body {
 .filtr-item {
   padding: 20px;
   padding-left: 24px;
-  border: 1px solid #eeeeee;
 }
 
 .filtr-title {
