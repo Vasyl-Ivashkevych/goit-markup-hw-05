@@ -486,7 +486,7 @@ body {
   height: 294px;
   top: 0;
   left: 0;
-  transform: translateY(100%);
+  transform: translateY(99%);
   display: flex;
   align-items: center;
   opacity: 0;
